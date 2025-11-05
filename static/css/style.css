@@ -1,0 +1,93 @@
+/* Apply a light grey background to the whole page */
+body {
+    background-color:#676767;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Center the content block */
+.content {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #808080;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+/* Headings */
+h1, h3 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #080808;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+ td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #DC143C;
+}
+th{
+    padding: 12px;
+    border-bottom: 2px solid #141414;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #303234;
+
+
+}
+
+/* Links */
+a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #FFD700 ;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form inputs */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #008080;
+}
