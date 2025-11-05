@@ -34,7 +34,7 @@ def index():
             return f"error:{e}"
     else:
         tasks = Mytask.query.order_by(Mytask.created).all()
-        return render_template("home.html",tasks=tasks)
+        return render_template("index.html",tasks=tasks)
 
 @app.route("/delete/<int:id>")
 def delete(id:int):
